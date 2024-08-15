@@ -1,5 +1,5 @@
 from sqlalchemy import DECIMAL, TIMESTAMP, Column, Integer, String
-from database import Base
+from app.dependencies.database import Base
 
 
 class Record(Base):
